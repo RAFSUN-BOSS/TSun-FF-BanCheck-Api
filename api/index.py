@@ -39,7 +39,10 @@ def check_banned(player_id):
             period = data.get("period", 0)
 
             result = {
-                "credits": "@saeedxdie",
+                "credits": "@rizerstyle",
+                "i am truly grateful for your work my brother ",
+                "author" : "@rafsunb0ss"
+                
                 "status": "BANNED" if is_banned else "NOT BANNED",
                 "ban_period": period if is_banned else 0,
                 "uid": player_id,
